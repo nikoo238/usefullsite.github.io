@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;   
+}
+ul#main li{
+    float: left;
+    position: relative;
+    width: 150px;
+}
+ul#main li ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+ul li a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: yellowgreen;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul#main li:hover ul{
+    display: block;
+}
